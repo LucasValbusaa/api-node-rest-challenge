@@ -1,0 +1,33 @@
+{
+  "name": "api-rest-challenge",
+  "version": "1.0.0",
+  "description": "- Deve ser possível criar um usuário - Deve ser possível identificar o usuário entre as requisições - Deve ser possível registrar uma refeição feita, com as seguintes informações:",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "dev": "tsx watch src/server.ts",
+    "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cookie": "^8.3.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.19.2",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.6",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "@types/node": "^20.3.3",
+    "@types/supertest": "^2.0.12",
+    "eslint": "^8.44.0",
+    "supertest": "^6.3.3",
+    "tsx": "^3.12.7",
+    "vitest": "^0.32.4"
+  }
+}
